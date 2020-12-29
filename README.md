@@ -92,9 +92,17 @@ The Vendstor windows application can also communicate with a React Native client
 
 You either use a local MySQL Database or a production one. Here is how you can set up the Vendstor Database.
 
--   Create a new database called **Vendstor**
+1.  Create a new database called **Vendstor**
 
--   Import the SQL file `vendstor.sql` and migrate it to create the different tables and columns
+2.  Import the SQL file `vendstor.sql` and migrate it to create the different tables and columns
+
+3.  Make sure to modify the **DefaultConnectionString** in https://github.com/vendstor/vendstor/blob/master/Vendstor/Backend/Database/Database.cs
+
+```
+replace YOUR_DATABASE_HOST_HERE with your MySql Database Host
+replace YOUR_DATABASE_USERNAME with your MySql User Username
+replace YOUR_DATABASE_PASSWORD with your MySql User Password
+```
 
 ## 📸 FTP Server (for image upload)
 
@@ -104,7 +112,7 @@ If you are on the localhost, consider using Xampp FTP server, then follow the sa
 
 ## 📌 Roadmap
 
--   [ ] 🚀 Release Vendstor 2018
+-   [x] 🚀 Release Vendstor 2018
 -   [ ] 🖥️ Add Windows support
 -   [ ] ⚡️ Improve code base
 -   [ ] 🗃 Add SQLite database support
@@ -115,13 +123,16 @@ If you are on the localhost, consider using Xampp FTP server, then follow the sa
 -   [ ] 🏗 Add REST API integration for both data-management and image upload
 -   [ ] 🚀 Release standalone version with custom REST API backend
 
+Features Tasks: https://github.com/vendstor/vendstor/projects/1
+Refactoring Tasks: https://github.com/vendstor/vendstor/projects/2
+
 ## 🤝 Authors
 
 -   [@franznkemaka](https://github.com/franznkemaka) (back in 2018)
 
 ## ❤️ Contributing
 
-This project is currently in standby mode. Check out the todo/roadmap to see what you can help with. Any contribution of any kind is welcome.
+This project is currently in standby mode. Check out the Projects section to see what you can help with. Any contribution of any kind is welcome.
 
 ## ⚖️ License
 
