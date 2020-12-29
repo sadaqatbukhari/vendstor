@@ -2,6 +2,20 @@
 
 Vendstor is the most advanced C# open sourced Point Of Sale App for Windows. It enables you to sell, manage employees, inventory and monitor your sales.
 
+The name is derived from: Vend (sell) + stor ~~e~~ (at store)
+
+<img src="./screenshots/MainMenu.png" alt="Vendstor Main Menu" width="810">
+<br>
+<img src="./screenshots/DashboardHome.png" alt="Vendstor Dashboard Home" width="200">
+<img src="./screenshots/SellCart.png" alt="Vendstor Sell Cart" width="200">
+<img src="./screenshots/AddCustomerToCart.png" alt="Vendstor Add Customer To Cart" width="200">
+<img src="./screenshots/CheckoutCompleted.png" alt="Vendstor Checkout Completed" width="200">
+<br>
+<img src="./screenshots/Products.png" alt="Vendstor Products" width="200">
+<img src="./screenshots/SaleReport.png" alt="Vendstor Sale Report" width="200">
+<img src="./screenshots/UserSettings.png" alt="Vendstor User Settings" width="200">
+<img src="./screenshots/GeneralSettings.png" alt="Vendstor General Settings" width="200">
+
 ## ✨ Features
 
 -   Create, Manage & Delete Stores
